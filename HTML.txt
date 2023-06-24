@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function openRandomLink() {
+  var links = [
+    "http://www.example.com/link1",
+    "http://www.example.com/link2",
+    "http://www.example.com/link3",
+    "http://www.example.com/link4",
+    "http://www.example.com/link5"
+  ];
+  var randomIndex = Math.floor(Math.random() * links.length);
+  window.open(links[randomIndex]);
+}
+</script>
+</head>
+<body>
+<button onclick="openRandomLink()">Abrir link aleatório</button>
+</body>
+</html>
